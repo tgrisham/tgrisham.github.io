@@ -1,0 +1,93 @@
+/* Typography */
+body {
+    /* Everything is Noto */
+    font-family: 'Noto', sans-serif;
+    margin-top: 65px;
+  }
+  /* Except we're using more specific rules to override the headlines */
+  h1, .navbar-brand {
+    font-family: 'Lobster', cursive;
+  }
+
+  /* And the "logo" */
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-dark .navbar-brand {
+    color: white;
+  }
+
+  .btn{
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .button {
+    border: white;
+    color: teal;
+    background-color: whitesmoke
+  }
+  
+  /* Jumbotron background and font styles */
+  /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+  .jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(gift-box-lot-1303082.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 0px 0px 0px black;
+  }
+  
+  /* The background color of the "testimonials" part */
+  .testimonials {
+    background-color: #eeeeee;
+  }
+  
+  /* The size of the testimonials images */
+  .media img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  /* The pricing */
+  .gifts h2 {
+    font-family: 'Anton';
+    color: black ;
+  }
+
+  .gifts {
+    background-color: whitesmoke;
+  }
+  /* The footer */
+  .footer img {
+    width: 100px;
+  }
+
+  /* Navbar Icons */
+  .fa {
+    padding: 5px;
+  }
+
+  .social-card-header{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 96px;
+    box-shadow: black;
+}
+.social-card-header i {
+    font-size: 32px;
+    color:#FFF;
+}
